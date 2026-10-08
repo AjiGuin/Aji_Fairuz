@@ -1,0 +1,55 @@
+.about-block {
+  background:
+    radial-gradient(60% 34% at 82% 6%, rgba(16, 16, 18, 0.055), transparent 70%),
+    var(--bg);
+}
+
+.about__grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  margin-top: 2.25rem;
+  align-items: start;
+}
+
+.about__body {
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  line-height: 1.75;
+  letter-spacing: -0.005em;
+  color: var(--ink-2);
+  max-width: 44rem;
+  text-wrap: pretty;
+}
+
+.about__facts {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.about__facts > div {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.about__facts dt {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+
+.about__facts dd {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+@media (max-width: 56rem) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,56 @@
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 2.5rem clamp(1.25rem, 5vw, 4rem) 3rem;
+  background: var(--bg);
+}
+
+.footer__inner {
+  max-width: 76rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.footer__name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+}
+
+.footer__role,
+.footer__copy {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.footer__links {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.footer__links a {
+  color: var(--ink-2);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  transition:
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.footer__links a:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+.footer__copy {
+  width: 100%;
+  font-size: 0.78rem;
+}

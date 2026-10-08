@@ -1,0 +1,14 @@
+:root {
+  --bg: #f7f7f5;
+  --ink: #101012;
+  --ink-2: #3d3d41;
+  --muted: #717177;
+  --line: rgba(16, 16, 18, 0.1);
+  --glass-light: rgba(255, 255, 255, 0.62);
+  --glass-light-border: rgba(16, 16, 18, 0.09);
+  --glass-dark: rgba(14, 14, 16, 0.55);
+  --glass-dark-border: rgba(255, 255, 255, 0.16);
+  --shadow-soft: 0 18px 40px -28px rgba(16, 16, 18, 0.35);
+  --font-body: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', 'Manrope', system-ui, sans-serif;
+}
