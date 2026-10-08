@@ -29,13 +29,12 @@ export const site = {
     { label: 'PROJECTS', href: '#projects' },
     { label: 'CONTACT', href: '#contact' },
   ] as NavLink[],
-  // TODO: replace every href below with Aji's real links.
   socials: {
-    email: { label: 'Email', href: 'mailto:hello@example.com', display: 'hello@example.com' },
-    whatsapp: { label: 'WhatsApp', href: 'https://wa.me/6200000000000', display: '+62 000-0000-0000' },
-    linkedin: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/example', display: 'linkedin.com/in/example' },
-    instagram: { label: 'Instagram', href: 'https://www.instagram.com/example', display: '@example' },
-    website: { label: 'Website', href: 'https://example.com', display: 'example.com' },
+    email: { label: 'Email', href: 'mailto:ajifairuszs456@gmail.com', display: 'ajifairuszs456@gmail.com' },
+    whatsapp: { label: 'WhatsApp', href: 'https://wa.me/6282123062825', display: '+62 821-2306-2825' },
+    linkedin: { label: 'LinkedIn', href: 'https://www.linkedin.com/in/aji-fairuz', display: 'linkedin.com/in/aji-fairuz' },
+    instagram: { label: 'Instagram', href: 'https://www.instagram.com/fairuzaji_', display: '@fairuzaji_' },
+    website: { label: 'Website', href: 'https://aji-fairuz.ajifairuzs456.workers.dev', display: 'aji-fairuz.ajifairuzs456.workers.dev' },
   } as Record<'email' | 'whatsapp' | 'linkedin' | 'instagram' | 'website', SocialLink>,
   meta: {
     title: 'Aji Fairus — Mechanical Engineering Design',
