@@ -3,12 +3,13 @@ import ArrowIcon from '../icons/ArrowIcon';
 
 interface ProjectCardProps {
   project: Project;
+  onClick: () => void;
 }
 
-const ProjectCard = ({ project }: ProjectCardProps) => (
-  <article className="project-card glass" data-reveal>
+const ProjectCard = ({ project, onClick }: ProjectCardProps) => (
+  <article className="project-card glass" data-reveal onClick={onClick} role="button" tabIndex={0} onKeyDown={(e) => e.key === 'Enter' && onClick()}>
     <div className="project-card__media">
-      <img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async" />
+      <img src={project.thumbnail} alt={project.imageAlt} loading="lazy" decoding="async" />
       <span className="project-card__no">{project.no}</span>
     </div>
     <div className="project-card__body">

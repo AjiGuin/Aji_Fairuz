@@ -9,10 +9,14 @@ export interface Project {
   title: string;
   category: string;
   description: string;
+  thumbnail: string;
   image: string;
   imageAlt: string;
   year: string;
   tools: string[];
+  detailedDescription?: string;
+  demoLink?: string;
+  sourceLink?: string;
 }
 
 // Placeholder projects — replace title, description, image, and tools per project.
@@ -23,6 +27,7 @@ export const projects: Project[] = [
     title: 'PROJECT 1',
     category: 'Mechanical Design',
     description: 'Placeholder summary — replace with scope, process, and outcome of this work.',
+    thumbnail: project01,
     image: project01,
     imageAlt: 'Preview of project 1',
     year: '2025',
@@ -33,6 +38,7 @@ export const projects: Project[] = [
     title: 'PROJECT 2',
     category: 'Technical Drawing',
     description: 'Placeholder summary — replace with scope, process, and outcome of this work.',
+    thumbnail: project02,
     image: project02,
     imageAlt: 'Preview of project 2',
     year: '2025',
@@ -43,6 +49,7 @@ export const projects: Project[] = [
     title: 'PROJECT 3',
     category: '3D Modeling',
     description: 'Placeholder summary — replace with scope, process, and outcome of this work.',
+    thumbnail: project03,
     image: project03,
     imageAlt: 'Preview of project 3',
     year: '2025',
@@ -53,6 +60,7 @@ export const projects: Project[] = [
     title: 'PROJECT 4',
     category: 'CAD Documentation',
     description: 'Placeholder summary — replace with scope, process, and outcome of this work.',
+    thumbnail: project04,
     image: project04,
     imageAlt: 'Preview of project 4',
     year: '2026',
@@ -63,6 +71,7 @@ export const projects: Project[] = [
     title: 'PROJECT 5',
     category: 'Design Development',
     description: 'Placeholder summary — replace with scope, process, and outcome of this work.',
+    thumbnail: project05,
     image: project05,
     imageAlt: 'Preview of project 5',
     year: '2026',

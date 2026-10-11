@@ -39,11 +39,5 @@ export const contactMethods: ContactMethod[] = [
     display: site.socials.instagram.display,
     hint: 'Work-in-progress snapshots',
   },
-  {
-    id: 'website',
-    label: site.socials.website.label,
-    href: site.socials.website.href,
-    display: site.socials.website.display,
-    hint: 'This portfolio, live',
-  },
+
 ];
